@@ -29,5 +29,10 @@ public class App
         //muestro
         System.out.println(pedido1.toString());
         System.out.println(pedido2.toString());
+
+        //cambio estrategia
+        pedido1.setEnvioStrategy(new Express());
+        System.out.println("Después de cambiar la estrategia de envío:");
+        System.out.println(pedido1.toString());
     }
 }

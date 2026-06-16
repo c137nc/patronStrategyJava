@@ -1,5 +1,5 @@
 package com.example.service;
-
+//clase que implementa la estrategia de retiro local, el costo es fijo (0)
 public class RetiroLocal implements EnvioStrategy {
 
     @Override

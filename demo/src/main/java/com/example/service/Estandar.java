@@ -1,5 +1,5 @@
 package com.example.service;
-
+//clase que implementa la estrategia de envío estándar, el costo se calcula con un costo base y un costo adicional por peso
 public class Estandar implements EnvioStrategy {
 
     @Override

@@ -1,5 +1,5 @@
 package com.example.service;
-
+//clase que implementa la estrategia de enví  o express, el costo se calcula con un costo base y un costo adicional por distancia
 public class Express implements EnvioStrategy {
 
     @Override
