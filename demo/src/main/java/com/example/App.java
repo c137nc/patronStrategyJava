@@ -1,5 +1,6 @@
 package com.example;
 
+import com.example.domain.Pedido;
 import com.example.service.Estandar;
 import com.example.service.Express;
 
